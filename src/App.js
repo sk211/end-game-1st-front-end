@@ -1,5 +1,4 @@
 import './App.css';
-import { render } from "react-dom";
 import {
   BrowserRouter,
   Routes,
@@ -8,7 +7,8 @@ import {
 import Header from './Components/Template/Header/Header';
 import Footer from './Components/Template/Footer/Footer';
 import Home from './Components/Template/Home/Home';
-import About from './Components/Template/About/About';
+import About from './Components/Template/Appioment/Appiment';
+import Dhome from './Components/Dashboard/DashhboardHome/Dhome';
 
 
 function App() {
@@ -20,6 +20,7 @@ function App() {
 
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="dashboard" element={<Dhome />} />
 
 
         </Routes>

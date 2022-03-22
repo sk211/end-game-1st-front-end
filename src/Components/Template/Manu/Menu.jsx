@@ -4,16 +4,22 @@ import { Link } from 'react-router-dom'
 
 export default function Menu() {
     return (
-        <Navbar bg="light" expand="lg">
+        <Navbar expand="lg">
             <Container>
-                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto">
+                    <Nav className="mx-auto">
                         {/* <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="/about">About</Nav.Link> */}
-                        <Link to="/">Home</Link> |{" "}
-                        <Link to="about">About</Link>
+                        <Link to="/">Home</Link> | {" "}
+                        <Link to="about">Doctor</Link>
+                        <Link to="/Patients">Patients</Link>
+                        <Link to="/Appin">Test</Link>
+                        <Link to="/Appointment">Appointment</Link>
+                        <Link to="/dashboard">
+                            <button className='btn btn-danger'>Dashboard</button>
+
+                        </Link>
 
                     </Nav>
                 </Navbar.Collapse>

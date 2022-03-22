@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#header_main{
+  background-image: url("https://doccure-html.dreamguystech.com/cardiology/assets/img/search-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
