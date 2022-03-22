@@ -1,5 +1,6 @@
 import React from 'react';
 import Menu from './../Manu/Menu';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -16,9 +17,9 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="col-md-3">
-                    <div className="login ">
+                    <Link to="/login" className="login ">
                         <button className='btn btn-danger'>Login/signup</button>
-                    </div>
+                    </Link>
                 </div>
 
 

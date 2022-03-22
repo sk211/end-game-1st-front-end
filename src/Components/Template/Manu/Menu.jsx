@@ -20,6 +20,9 @@ export default function Menu() {
                             <button className='btn btn-danger'>Dashboard</button>
 
                         </Link>
+                        <Link to="/login">
+
+                        </Link>
 
                     </Nav>
                 </Navbar.Collapse>
